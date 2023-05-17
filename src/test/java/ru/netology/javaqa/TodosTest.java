@@ -63,7 +63,7 @@ public class TodosTest {
     }
 
     @Test
-    public void shouldReturnMatchingTasks() {
+    public void shouldSearch() {
         SimpleTask simpleTask = new SimpleTask(5, "Позвонить родителям");
 
         String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
